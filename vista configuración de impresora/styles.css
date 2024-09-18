@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 0px 0;
+}
+
+header h1 {
+    background-color: blueviolet;
+    color: white;
+    padding: 12px;
+    font-size: 2em;
+    
+    
+}
+nav {
+    margin-top: 20px;
+}
+
+nav button {
+    color: blueviolet;
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+nav .active {
+    color:blueviolet;
+    border: 1px solid #ddd;
+    background-color: whitesmoke;
+    border: 2px solid blueviolet;
+}
+
+main {
+    margin-top: 20px;
+}
+
+main h2 {
+   
+    color:blueviolet;
+    font-weight: 500;
+    padding: 2px;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    color: blueviolet;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+input[type="text"], select {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.posicion {
+    
+    margin-top: 10px;
+}
+h3 {
+    color: blueviolet;
+    text-align: center;
+
+}
+
+.posicion-area {
+    width: 200px;
+    height: 150px;
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+footer {
+    background: blueviolet;
+    color: white;
+    text-align: center;
+    padding: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  #calibrar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .posicion {
+    width: 200px;
+    height: 200px;
+    border: 1px solid blueviolet;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posicion-area {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#calibrate-button {
+    color: blueviolet;
+    margin-top: 20px;
+    
+}
+
+
+
+
+

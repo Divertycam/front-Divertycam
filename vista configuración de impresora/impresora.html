@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Diverty Cam - Configuración de Impresora</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Diverty Cam </h1>
+            <nav>
+                <button>Inicio</button>
+                <button>Conf. Cámara</button>
+                <button>Conf. Pantallas</button>
+                <button>Conf. Fotos</button>
+                <button class="active">Conf. Impresora</button>
+                <button>Conf. General</button>
+            </nav>
+        </header>
+        <main>
+            <h2>Configuración de impresora</h2>
+            <form>
+                <label for="impresora">Impresora</label>
+                <select id="impresora" name="impresora">
+                    <option value="mitsubishi">MITSUBISHI CPD80D</option>
+                </select>
+
+                <label for="papel-principal">Papel principal</label>
+                <input type="text" id="papel-principal" name="papel-principal" value="10x15(4x6)" />
+
+                <label for="papel-corte">Papel para corte de</label>
+                <input type="text" id="papel-corte" name="papel-corte" value="10x15(4x6)" />
+
+                <label>
+                    <input type="checkbox" name="no-imprimir" id="no-imprimir">
+                    No imprimir
+                </label>
+            </form>
+            <form action="posicion" id="calibrar">
+                <h3>Posición</h3>
+                <div class="posicion">
+                    <div class="posicion-area" id="posicion area"></div>
+                </div>
+                <button id="calibrate-button">Calibrar</button>
+            </form>
+        </main>
+    </div>
+
+    
+    <script src="impresora.js"></script>
+</body>
+</html>
